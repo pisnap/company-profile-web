@@ -1289,15 +1289,7 @@ section,
 --------------------------------------------------------------*/
 .clients .clients-wrap {
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  /* border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 85%); */
-  justify-content: center;
-}
-
-.clients .client-logo:last-child {
-  margin-left: auto;
-  margin-right: auto;
   border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 .clients .client-logo {
@@ -1305,7 +1297,6 @@ section,
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   overflow: hidden;
